@@ -1,0 +1,14 @@
+package com.jonnyuun.decocenter.ui
+
+import androidx.compose.runtime.Composable
+import androidx.compose.runtime.remember
+import top.yukonga.miuix.kmp.theme.ColorSchemeMode
+import top.yukonga.miuix.kmp.theme.MiuixTheme
+import top.yukonga.miuix.kmp.theme.ThemeController
+
+/** Tema Miuix con colores dinámicos del sistema (Monet) y modo claro/oscuro automático. */
+@Composable
+fun DecoTheme(content: @Composable () -> Unit) {
+    val controller = remember { ThemeController(ColorSchemeMode.MonetSystem) }
+    MiuixTheme(controller = controller, content = content)
+}

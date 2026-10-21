@@ -1,0 +1,20 @@
+[versions]
+# Alineado con miuix 0.9.4 (Kotlin 2.4.20, AGP 9.4.1, Gradle 9.7.1, JDK 21).
+agp = "9.4.1"
+kotlin = "2.4.20"
+androidx-activity = "1.13.0"
+miuix = "0.9.4"
+junit = "4.13.2"
+org-json = "20250107"
+
+[libraries]
+androidx-activity-compose = { module = "androidx.activity:activity-compose", version.ref = "androidx-activity" }
+miuix-ui = { module = "top.yukonga.miuix.kmp:miuix-ui", version.ref = "miuix" }
+miuix-preference = { module = "top.yukonga.miuix.kmp:miuix-preference", version.ref = "miuix" }
+junit = { module = "junit:junit", version.ref = "junit" }
+# org.json real para los tests JVM (el de android.jar es un stub que lanza excepciones).
+org-json = { module = "org.json:json", version.ref = "org-json" }
+
+[plugins]
+android-application = { id = "com.android.application", version.ref = "agp" }
+compose-compiler = { id = "org.jetbrains.kotlin.plugin.compose", version.ref = "kotlin" }

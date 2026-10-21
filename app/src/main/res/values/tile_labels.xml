@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generado por tools/gen_tiles.py. No editar a mano. -->
+<resources>
+    <string name="tile_service_label_1">Deco 1</string>
+    <string name="tile_service_label_2">Deco 2</string>
+    <string name="tile_service_label_3">Deco 3</string>
+    <string name="tile_service_label_4">Deco 4</string>
+    <string name="tile_service_label_5">Deco 5</string>
+    <string name="tile_service_label_6">Deco 6</string>
+    <string name="tile_service_label_7">Deco 7</string>
+    <string name="tile_service_label_8">Deco 8</string>
+    <string name="tile_service_label_9">Deco 9</string>
+    <string name="tile_service_label_10">Deco 10</string>
+    <string name="tile_service_label_11">Deco 11</string>
+    <string name="tile_service_label_12">Deco 12</string>
+</resources>

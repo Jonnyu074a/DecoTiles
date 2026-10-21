@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">DecoCenter</string>
+    <string name="app_subtitle">12 tarjetas para tu Centro de Control</string>
+
+    <!-- Secciones -->
+    <string name="section_preview">Simulador en vivo</string>
+    <string name="section_presets">Temas rápidos</string>
+    <string name="section_cards">Tarjetas</string>
+    <string name="section_backup">Copia de seguridad</string>
+    <string name="section_help">Cómo usarlas</string>
+    <string name="help_text">Desliza el Centro de Control, toca el lápiz de edición y arrastra «Deco 1…12» a tu panel. Mantén pulsada una tarjeta para abrir su ajuste aquí.\n\nLos símbolos (✦ ★ ∞ ♥︎) se tiñen con el tema del sistema. Los emojis a color se dibujan con sus colores, pero si tu ROM tiñe los iconos de las tarjetas se verán como silueta.</string>
+
+    <!-- Acciones comunes -->
+    <string name="apply">Aplicar</string>
+    <string name="cancel">Cancelar</string>
+    <string name="undo">Deshacer</string>
+    <string name="show">Mostrar</string>
+    <string name="hide">Ocultar</string>
+    <string name="loading">Cargando aplicaciones…</string>
+
+    <!-- Temas rápidos -->
+    <string name="preset_title">Aplicar «%1$s»</string>
+    <string name="preset_message">Se reemplazarán símbolos, nombres y funciones de las 12 tarjetas. Las apps elegidas del Lanzador se conservan. Podrás deshacerlo.</string>
+    <string name="preset_applied">Tema «%1$s» aplicado</string>
+
+    <!-- Editor de tarjeta -->
+    <string name="field_symbol">Símbolo</string>
+    <string name="field_name">Nombre</string>
+    <string name="field_mode">Función al tocar</string>
+    <string name="field_note">Texto de la nota</string>
+    <string name="field_clipboard">Texto que se copiará (DNI, correo, IBAN…)</string>
+    <string name="field_app">Aplicación</string>
+    <string name="field_dice">Tipo de lanzamiento</string>
+    <string name="field_duration">Duración</string>
+    <string name="pick_symbol">Elegir símbolo</string>
+    <string name="pick_app">Elegir aplicación</string>
+    <string name="pick_app_in_card">Elige una app en la tarjeta</string>
+    <string name="would_open">Abriría %1$s</string>
+    <string name="search_apps">Buscar aplicación</string>
+    <string name="remove_app">Quitar</string>
+    <string name="reset_counter">Reiniciar contador (%1$d)</string>
+    <string name="minutes_value">%1$d min</string>
+    <string name="lit_state">Estado actual (encendido)</string>
+    <string name="lit_look">Resaltada (encendida)</string>
+    <string name="add_to_panel">Añadir al Centro de Control</string>
+    <string name="add_manual_hint">Añádela desde el editor del Centro de Control</string>
+
+    <!-- Grupos de símbolos -->
+    <string name="symbols_sky">Cielo y estrellas</string>
+    <string name="symbols_shapes">Formas</string>
+    <string name="symbols_hearts">Corazones y flores</string>
+    <string name="symbols_tools">Herramientas y emojis</string>
+
+    <!-- Funciones -->
+    <string name="mode_static">Solo decoración</string>
+    <string name="mode_static_hint">No hace nada al tocar</string>
+    <string name="mode_toggle">Interruptor</string>
+    <string name="mode_toggle_hint">Alterna entre encendido y apagado</string>
+    <string name="mode_clipboard">Portapapeles</string>
+    <string name="mode_clipboard_hint">Copia el texto que elijas</string>
+    <string name="mode_tally">Contador</string>
+    <string name="mode_tally_hint">Suma 1 con cada toque</string>
+    <string name="mode_note">Post-it</string>
+    <string name="mode_note_hint">Muestra una nota en la tarjeta</string>
+    <string name="mode_launcher">Lanzador</string>
+    <string name="mode_launcher_hint">Abre una aplicación</string>
+    <string name="mode_dice">Dado / moneda</string>
+    <string name="mode_dice_hint">Tira un dado o una moneda</string>
+    <string name="mode_torch">Linterna</string>
+    <string name="mode_torch_hint">Enciende y apaga el flash</string>
+    <string name="mode_timer">Temporizador</string>
+    <string name="mode_timer_hint">Cuenta atrás con aviso al terminar</string>
+
+    <!-- Dados -->
+    <string name="dice_d6">Dado de 6 caras</string>
+    <string name="dice_coin">Moneda (cara o cruz)</string>
+    <string name="dice_d20">Dado de 20 caras</string>
+    <string name="roll_d6">Dado: %1$d</string>
+    <string name="roll_d20">d20: %1$d</string>
+    <string name="coin_heads">Cara</string>
+    <string name="coin_tails">Cruz</string>
+
+    <!-- Textos de las tarjetas -->
+    <string name="tile_default_title">Deco %1$d</string>
+    <string name="state_on">Encendido</string>
+    <string name="state_off">Apagado</string>
+    <string name="sub_no_text">Sin texto</string>
+    <string name="sub_tap_copy">Toca para copiar</string>
+    <string name="sub_no_app">Sin app</string>
+    <string name="sub_tap_roll">Toca para tirar</string>
+    <string name="sub_minutes">%1$d min</string>
+    <string name="timer_done">¡Listo!</string>
+
+    <!-- Avisos -->
+    <string name="toast_copied">Copiado</string>
+    <string name="toast_no_text">Esta tarjeta no tiene texto</string>
+    <string name="toast_no_flash">Este dispositivo no tiene flash</string>
+    <string name="toast_torch_failed">No se pudo usar la linterna</string>
+
+    <!-- Copia de seguridad -->
+    <string name="backup_export">Exportar copia</string>
+    <string name="backup_export_summary">Guarda las 12 tarjetas en un archivo JSON</string>
+    <string name="backup_import">Importar copia</string>
+    <string name="backup_import_summary">Recupera las tarjetas desde un archivo JSON (podrás deshacerlo)</string>
+    <string name="backup_include_secrets">Incluir textos del Portapapeles</string>
+    <string name="backup_include_secrets_summary">Son datos sensibles: irían sin cifrar dentro del archivo</string>
+    <string name="backup_filename">decocenter-copia.json</string>
+    <string name="backup_exported">Copia guardada</string>
+    <string name="backup_export_failed">No se pudo guardar el archivo</string>
+    <string name="backup_imported">Copia importada</string>
+    <string name="backup_invalid">El archivo no es una copia válida de DecoCenter</string>
+
+    <!-- Accesibilidad -->
+    <string name="a11y_tile_tap">Tocar %1$s</string>
+    <string name="a11y_expand">Desplegar ajustes</string>
+    <string name="a11y_collapse">Contraer ajustes</string>
+    <string name="a11y_selected">Seleccionada</string>
+</resources>
